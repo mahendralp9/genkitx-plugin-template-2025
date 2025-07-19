@@ -1,7 +1,9 @@
 {
+fitur/mongodb-library
   "name": "genkitx-plugin-template-2025",
   "version": "0.0.1",
   "description": "A Genkit flow that connects to a PostgreSQL database as an example.",
+main
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -10,20 +12,19 @@
   },
   "keywords": [
     "genkit",
-    "postgres",
+    "mongodb",
     "flow"
   ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/pg": "^8.15.4",
     "typescript": "^5.8.3"
   },
   "peerDependencies": {
     "@genkit-ai/flow": "^0.5.17",
     "@genkit-ai/googleai": "^1.15.1",
     "genkit": "^1.15.1",
-    "pg": "^8.16.3"
+    "mongodb": "^6.8.0"
   },
   "files": [
     "lib"
